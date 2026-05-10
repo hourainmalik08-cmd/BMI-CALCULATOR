@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box{
+    min-width: 400px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    line-height: 2.2;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0; /* Optional: Removes the default indentation */
+  margin: 0;  /* Optional: Removes default spacing */
+}
+.input label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 10px;
+    padding: 6px 0;
+    text-align: center;
+}
+button{
+    background-color: #1d009e;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 50%;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition : 0.3s;
+}
+button:hover{
+    transform: scale(1.09);
+}
+.result{
+    font-size: 33px;
+    font-weight: 600;
+    color: #000000;
+}
+.bmi{
+    font-size: 33px;
+    font-weight: 600;
+    color: #ff0000;
+}
+.category{
+    font-weight: 600;
+    color: #000000;
+}
+h4{
+    font-size: 15px;
+    font-weight: 300;
+}
